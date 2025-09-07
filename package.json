@@ -1,0 +1,26 @@
+{
+  "name": "golge-ai-ultimate",
+  "version": "2.0.0",
+  "description": "🌙 Ultimate Gölge AI Trading Assistant",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "node-cron": "^3.0.2"
+  },
+  "keywords": ["ai", "trading", "gölge", "railway"],
+  "author": "Ultimate Gölge AI",
+  "license": "MIT"
+}
